@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pokedex</title>
+        <link rel="stylesheet" href="css/estilos.css">
+       
+    </head>
+    <body>
+        <div class="img_inicio">
+        <img src="image/image 1.png" class="eloahlegal">
+        <img src="image/image 5.png" class="pokebola">
+        <img src="image/Vector.png" class="titulo">
+        <img src="image/raikou.png" class="raikou">
+        
+        <div class="input-group mb-3">
+        </div>
+        <div>
+            <br>
+            <h2>Qual é esse Pokémon? <br></h2>
+            <form class="form">
+                <input type="search" class="input__search" placeholder="Informe um Pokémon ou seu Número..." required>
+                <button class="btn btn-outline-secondary" type="submit" value="Submit" id="button-addon2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg>
+                </button>
+              </form>
+        </div>
+       
+        <center>
+            <h2>Lista Pokémons</h2>
+            <br><br>
+            <img src="#" alt="pokemon" class="pokemon__image">
+            <br>
+            <h1 class="pokemon__data">
+              <span class="pokemon__number"></span> -
+              <span class="pokemon__name"></span>
+            </h1>
+            <br>
+            <div class="buttons">
+                <button class="button btn-prev">Anterior &lt;</button>
+                <button class="button btn-next">Próximo &gt;</button>
+            </div>
+        </center>
+    </div>
+    <div class="container">
+        <div class="search-bar">
+            <label for="search">Pokemon : </label>
+            <input type="text" id="search" placeholder="Digite o nome do Pokémon...">
+            <button id="search-button">Buscar : </button>
+        </div>
+    </div>
+ 
+    <div class="container">
+        <div id="pokemon-list" class="pokemon-list"></div>
+    </div>
+ 
+    <footer class="footer">
+        <div class="container">
+            <p>Desenvolvido por Kauã e Eloah</p>
+        </div>
+    </footer>
+       
+       
+       <script src="js/script.js"></script>
+    </body>
+ 
+ 
+ 
+ 
+</html>
